@@ -1,0 +1,101 @@
+body {
+  background-color: #fff;
+}
+body .navbar-top {
+  background-color: #fff;
+  display: inline-block;
+}
+body .navbar-top .login-register {
+  padding-left: 20px;
+  display: inline-block;
+}
+body .navbar-top .login-register a {
+  font-size: 14px;
+  font-weight: bolder;
+  color: #d52b1e;
+}
+body .navbar-top .login-register span {
+  color: #d52b1e;
+}
+body .navbar-top .contact-navbartop {
+  display: inline-block;
+  position: absolute;
+  right: 0;
+}
+body .navbar-top .contact-navbartop a {
+  font-size: 14px;
+  font-weight: bolder;
+  color: #d52b1e;
+}
+body .separator {
+  background-color: #f9f9f9;
+  border: solid 1px #e0e0e0;
+  padding: 7px;
+}
+body .navbar-bot {
+  border-bottom: 1px solid #e0e0e0;
+}
+body .navbar-bot div a img {
+  width: 225px;
+  height: 80px;
+}
+body .navbar-bot div div ul {
+  padding-right: 100px;
+}
+body .navbar-bot div div ul .item-nav {
+  padding-left: 50px;
+}
+body .navbar-bot div div form button {
+  color: #d52b1e;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #212529;
+}
+
+main div div .button-carousel {
+  z-index: 0;
+}
+main div div div .tittle-carousel {
+  width: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: transparent;
+  padding: 0;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 32px 32px 0;
+}
+main div div div .tittle-carousel .preheader {
+  font-size: 20px;
+  font-family: FuturaPT;
+  letter-spacing: 1px;
+  margin-bottom: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+main div div div .tittle-carousel h2 {
+  font-family: FuturaPT, sans-serif;
+  padding-bottom: 0.5em;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 1.25;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+main div div div .tittle-carousel .btn-primari {
+  background-color: #d52b1e;
+  color: #fff;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=style.css.map */

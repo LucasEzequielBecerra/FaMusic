@@ -1,0 +1,76 @@
+@import '../base/list';
+
+body {
+    background-color: nth($colors, 2);
+
+    .navbar-top {
+        background-color: nth($colors, 2);
+        display: inline-block;
+
+        .login-register {
+            padding-left: 20px;
+            display: inline-block;
+
+            a {
+                font-size: nth($font-size, 3);
+                font-weight: bolder;
+                color: nth($colors, 1);
+            }
+
+            span {
+                color: nth($colors, 1);
+            }
+        }
+
+        .contact-navbartop {
+            display: inline-block;
+            position: absolute;
+            right: 0;
+
+            a {
+                font-size: nth($font-size, 3);
+                font-weight: bolder;
+                color: nth($colors, 1);
+
+            }
+
+        }
+
+    }
+
+    .separator {
+        background-color: #f9f9f9;
+        border: solid 1px #e0e0e0;
+        padding: 7px;
+    }
+
+    .navbar-bot {
+        border-bottom: 1px solid #e0e0e0;        
+        div {
+            a {
+
+                img {
+                    width: 225px;
+                    height: 80px;
+                }
+            }
+
+            div {
+                ul {
+                    padding-right: 100px;
+                    .item-nav {
+                        padding-left: 50px;
+                    }
+                }
+
+                form {
+                    button{
+                        color: nth($colors, 1 );
+                    }
+                    
+                }
+            }
+        }
+
+    }
+}

@@ -1,13 +1,170 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <!-- icons -->
+    <script src="https://kit.fontawesome.com/28d7bb832d.js" crossorigin="anonymous"></script>
+    <!-- Boostrap -->
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Css -->
+    <link rel="stylesheet" href="css/style.css">
     <title></title>
 </head>
+
 <body>
-    
+
+    <nav class="navbar container-fluid navbar-top d-none d-lg-block">
+        <div class=" login-register ">
+            <a class="navbar-brand" href="login.html">Iniciar sesion</a>
+            <span class="navbar-brand">/</span>
+            <a class="navbar-brand" href="register.html">Registrarse</a>
+        </div>
+        <div class="contact-navbartop">
+            <a class="navbar-brand" href="contact.html">Contacto</a>
+        </div>
+    </nav>
+
+    <div class="separator">
+
+    </div>
+
+
+
+    <nav class="navbar navbar-expand-lg navbar-bot">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img class="img-fluid" src="imagenes/logo-header.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0  ">
+                    <li class="item-nav">
+                        <a class="nav-link " aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="item-nav">
+                        <a class="nav-link" href="productos.html">Productos destacados</a>
+                    </li>
+                    <li class="item-nav dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Guitarras
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Acusticas</a></li>
+
+                            <li><a class="dropdown-item" href="#">Electroacusticas</a></li>
+                            <li><a class="dropdown-item" href="#">Electricas</a></li>
+                        </ul>
+                    </li>
+                    <li class="item-nav dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Bajos
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Precision Bass</a></li>
+                            <li><a class="dropdown-item" href="#">Jazz Bass</a></li>
+                            <li><a class="dropdown-item" href="#">Jaguar Bass</a></li>
+                        </ul>
+                    </li>
+                    <li class="item-nav dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Accesorios
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Fundas para instrumentos</a></li>
+                            <li><a class="dropdown-item" href="#">Cables</a></li>
+                            <li><a class="dropdown-item" href="#">Afinadores</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex " role="search">
+                    <input class="form-control" type="search" placeholder="¿Que estas buscando?" aria-label="Search">
+                    <button class="btn" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+    <main>
+
+
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://stuff.fendergarage.com/images/J/F/L/Web_Fender_0906_22_Joe_Strummer_Telecaster_Launch_HPS_DESKTOP_FINAL@2x.jpg"
+                        class="d-block w-100" alt="...">
+                    <div class="tittle-carousel d-none d-lg-block">
+                        <div class="preheader">PRESENTANDO EL</div>
+                        <h2> JOE STRUMMER TELECASTER</h2>
+                        <a class="btn btn-primari" href="#">Comprar ahora</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://stuff.fendergarage.com/images/O/N/E/Web_Fender_1004_22_NPI_AerodyneSpecialLaunch_HPS_DESKTOP1-.jpg"
+                        class="d-block w-100" alt="...">
+                    <div class="tittle-carousel d-none d-lg-block">
+                        <div class="preheader">PRESENTANDO EL</div>
+                        <h2> JOE STRUMMER TELECASTER</h2>
+                        <a class="btn btn-primari" href="#">Comprar ahora</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://stuff.fendergarage.com/images/d/t/y/Web_Fender_09_27_22_NPI_LE_Johnny_Marr_Jaguar_Launch_HPS_Desktop_FINAL@2x.jpg"
+                        class="d-block w-100" alt="...">
+                    <div class="tittle-carousel d-none d-lg-block">
+                        <div class="preheader">PRESENTANDO EL</div>
+                        <h2> JOE STRUMMER TELECASTER</h2>
+                        <a class="btn btn-primari" href="#">Comprar ahora</a>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev button-carousel" type="button"
+                data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+        integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous">
+    </script>
 </body>
+
 </html>
