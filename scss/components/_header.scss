@@ -6,6 +6,7 @@ body {
     .navbar-top {
         background-color: nth($colors, 2);
         display: inline-block;
+        
 
         .login-register {
             padding-left: 20px;
@@ -45,13 +46,18 @@ body {
     }
 
     .navbar-bot {
-        border-bottom: 1px solid #e0e0e0;        
+        border-bottom: 1px solid #e0e0e0;    
+        background-color: nth($colors , 2 );    
+        position: sticky;
+        top: 0;
+        z-index: 1;
         div {
             a {
 
                 img {
                     width: 225px;
                     height: 80px;
+                    width: 100%;
                 }
             }
 
@@ -59,7 +65,7 @@ body {
                 ul {
                     padding-right: 100px;
                     .item-nav {
-                        padding-left: 50px;
+                        padding-left: 10px;
                     }
                 }
 

@@ -34,16 +34,21 @@ body .separator {
 }
 body .navbar-bot {
   border-bottom: 1px solid #e0e0e0;
+  background-color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 body .navbar-bot div a img {
   width: 225px;
   height: 80px;
+  width: 100%;
 }
 body .navbar-bot div div ul {
   padding-right: 100px;
 }
 body .navbar-bot div div ul .item-nav {
-  padding-left: 50px;
+  padding-left: 10px;
 }
 body .navbar-bot div div form button {
   color: #d52b1e;
@@ -86,6 +91,11 @@ main .carousel div div .tittle-carousel .preheader {
   text-transform: uppercase;
   font-weight: bold;
 }
+@media only screen and (min-width: 425px) and (max-width: 768px) {
+  main .carousel div div .tittle-carousel .preheader {
+    font-size: 12px;
+  }
+}
 main .carousel div div .tittle-carousel h2 {
   font-family: FuturaPT, sans-serif;
   padding-bottom: 0.5em;
@@ -95,11 +105,21 @@ main .carousel div div .tittle-carousel h2 {
   letter-spacing: 2px;
   text-transform: uppercase;
 }
+@media only screen and (min-width: 425px) and (max-width: 768px) {
+  main .carousel div div .tittle-carousel h2 {
+    font-size: 12px;
+  }
+}
 main .carousel div div .tittle-carousel .btn-primari {
   background-color: #d52b1e;
   color: #fff;
   z-index: 1;
   font-weight: bold;
+}
+@media only screen and (min-width: 425px) and (max-width: 768px) {
+  main .carousel div div .tittle-carousel .btn-primari {
+    font-size: 12px;
+  }
 }
 main .top-container {
   margin: 25px 0px;
@@ -122,60 +142,65 @@ main .top-container .top-products .top-product .top-product-button {
   text-transform: uppercase;
   font-size: 20px;
 }
-main .container-new {
-  margin-top: 100px;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 0.15fr 1fr;
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
-  background-color: #f9f9f9;
+main hr {
+  width: 80px;
+  display: block;
+  border-top: 4px solid #d52b1e;
+  margin: 0 auto;
+  opacity: 1;
 }
-main .container-new .header-new {
-  grid-area: 1/1/2/5;
-  display: flex;
-  justify-content: start;
-  align-items: center;
-}
-main .container-new .header-new hr {
-  color: #d52b1e;
-}
-main .container-new .image-container1 {
-  grid-area: 2/1/3/2;
-}
-main .container-new .image-container2 {
-  grid-area: 2/2/3/3;
-}
-main .container-new .image-container3 {
-  grid-area: 2/3/3/4;
-}
-main .container-new .image-container4 {
-  grid-area: 2/4/3/5;
-}
-main .container-new .image-container-new {
-  width: 100%;
-  border: solid 1px #f9f9f9;
+main .image-container-new {
+  border: solid 1px #e8d5d5;
   display: flex;
   justify-content: flex-end;
   align-items: center;
   flex-direction: column;
+  background-color: #fff;
 }
-main .container-new .image-container-new a img {
+main .image-container-new a img {
   height: 600px;
 }
-main .container-new .image-container-new a img:hover {
+main .image-container-new a img:hover {
   opacity: 0.1;
   transition: opacity 0.2s ease 0s;
 }
-main .container-new .image-container-new a #sound-img {
+main .image-container-new a #sound-img {
   height: 200px;
 }
-main .container-new .tittle-new {
+main .tittle-new {
   display: flex;
   justify-content: start;
 }
-main .container-new .tittle-new:hover {
+main .tittle-new:hover {
   color: #d52b1e;
+}
+
+body .footer-container {
+  margin-top: 200px;
+  background-color: #121212;
+  color: #fff;
+}
+body .footer-container div .logo-slogan {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+body .footer-container div .logo-slogan .logo-footer {
+  width: 30%;
+}
+body .footer-container div .social {
+  display: flex;
+  justify-content: end;
+}
+body .footer-container div .social img {
+  width: 50px;
+  padding-left: 10px;
+}
+body .footer-container div .footer-bot {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */

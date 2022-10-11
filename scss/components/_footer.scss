@@ -1,0 +1,36 @@
+body {
+    .footer-container {
+        margin-top: 200px;
+        background-color: nth($colors , 3 );
+        color: nth($colors , 2 );
+        div {
+            .logo-slogan {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: flex-start;
+                .logo-footer {
+                    width: 30%;
+                }
+
+                p {}
+            }
+            .social{
+                display: flex;
+                justify-content: end;
+            
+                img{
+                    width: 50px;
+                    padding-left: 10px;
+                }
+            }
+        }
+        div{
+            .footer-bot{
+                display: flex;
+                justify-content: center;
+                gap: 10px;
+            }
+        }
+    }
+}
