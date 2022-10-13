@@ -1,7 +1,8 @@
 main {
-    nav{
+    nav {
         margin-bottom: 50px;
     }
+
     div {
         .tittle-filters {
             background-color: #fff;
@@ -23,12 +24,13 @@ main {
                 }
             }
         }
-        .filter-xs{
+
+        .filter-xs {
             margin-bottom: 30px;
         }
 
         .gallery {
-            .gallery-container {
+            .gallery-container {  
                 margin-top: 20px;
                 display: grid;
                 grid-template-columns: repeat(3, 1fr);
@@ -95,56 +97,95 @@ main {
                     grid-template-rows: repeat(6, 1fr);
                     grid-column-gap: 0px;
                     grid-row-gap: 0px;
+                }
+
+                .div1 {
+                    grid-area: 1 / 1 / 2 / 2;
+                }
+
+                .div2 {
+                    grid-area: 1 / 2 / 2 / 3;
+                }
+
+                .div3 {
+                    grid-area: 2 / 1 / 3 / 2;
+                }
+
+                .div4 {
+                    grid-area: 2 / 2 / 3 / 3;
+                }
+
+                .div5 {
+                    grid-area: 3 / 1 / 4 / 2;
+                }
+
+                .div6 {
+                    grid-area: 3 / 2 / 4 / 3;
+                }
+
+                .div7 {
+                    grid-area: 4 / 1 / 5 / 2;
+                }
+
+                .div8 {
+                    grid-area: 4 / 2 / 5 / 3;
+                }
+
+                .div9 {
+                    grid-area: 5 / 1 / 6 / 2;
+                }
+
+                .div10 {
+                    grid-area: 5 / 2 / 6 / 3;
+                }
+
+                .div11 {
+                    grid-area: 6 / 1 / 7 / 2;
+                }
+
+                .div12 {
+                    grid-area: 6 / 2 / 7 / 3;
+                }
+            }
+
+            .img-tittle-container {
+                border: solid 2px #fff;
+                justify-content: end;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                background-color: nth($colors, 2);
+
+                .img-container {
+                    display: flex;
+
+                    max-height: 800px;
+
+                    @media screen and (min-width:425px) and (max-width:768px) {
+                        height: 350px;
+                        width: 110px;
                     }
+
+                }
+
+                .tittle {
                     
-                    .div1 { grid-area: 1 / 1 / 2 / 2; }
-                    .div2 { grid-area: 1 / 2 / 2 / 3; }
-                    .div3 { grid-area: 2 / 1 / 3 / 2; }
-                    .div4 { grid-area: 2 / 2 / 3 / 3; }
-                    .div5 { grid-area: 3 / 1 / 4 / 2; }
-                    .div6 { grid-area: 3 / 2 / 4 / 3; }
-                    .div7 { grid-area: 4 / 1 / 5 / 2; }
-                    .div8 { grid-area: 4 / 2 / 5 / 3; }
-                    .div9 { grid-area: 5 / 1 / 6 / 2; }
-                    .div10 { grid-area: 5 / 2 / 6 / 3; }
-                    .div11 { grid-area: 6 / 1 / 7 / 2; }
-                    .div12 { grid-area: 6 / 2 / 7 / 3; }
-            }
+                    height: 50px;
+                    background-color: nth($colors, 2);
+                    width: 100%;
+                    margin-top: 10px;
+                    display: flex;
+                    justify-content: center;
 
-            .img-tittle-container{
-            border: solid 2px #fff;
-            justify-content: end;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-                
-            .img-container{
-                display: flex;
-            
-                 max-height:800px ;
+                    a{
+                        color: nth($colors, 1); 
+                    }
+                }
 
-                 @media screen and (min-width:425px) and (max-width:768px){
-                    height: 350px;
-                    width: 110px;
-                 }
-            }
-            
-            .tittle{
-                color: nth($colors, 1 );
-                height: 50px;
-                background-color: nth($colors, 2 );
-                width: 100%;
-                margin-top: 10px;
-                display: flex;
-                justify-content: center;
-            }
+
 
             }
-            .container-rari{
-                display: flex;
-               justify-content: flex-end;
-            }
-
         }
+
     }
 }

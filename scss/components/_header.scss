@@ -16,6 +16,9 @@ body {
                 font-size: nth($font-size, 3);
                 font-weight: bolder;
                 color: nth($colors, 1);
+                &:hover{
+                    color:nth($colors, 3) ;
+                }
             }
 
             span {
@@ -32,6 +35,9 @@ body {
                 font-size: nth($font-size, 3);
                 font-weight: bolder;
                 color: nth($colors, 1);
+                &:hover{
+                    color:nth($colors, 3);
+                }
 
             }
 

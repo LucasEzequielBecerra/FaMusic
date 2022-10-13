@@ -113,10 +113,11 @@ main {
             align-items: center;
             flex-direction: column;
             background-color: #fff;
+            height: 550px;
 
             a {
                 img {
-                    height: 600px;
+                    height: 467px;
 
                     &:hover {
                         opacity: .10;
@@ -133,8 +134,9 @@ main {
 
         .tittle-new {
             display: flex;
-            justify-content: start;
-
+            justify-content: center;
+            text-align: start;
+            height: 48px;
             &:hover {
                 color: nth($colors, 1);
             }

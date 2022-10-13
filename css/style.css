@@ -14,6 +14,9 @@ body .navbar-top .login-register a {
   font-weight: bolder;
   color: #d52b1e;
 }
+body .navbar-top .login-register a:hover {
+  color: #121212;
+}
 body .navbar-top .login-register span {
   color: #d52b1e;
 }
@@ -26,6 +29,9 @@ body .navbar-top .contact-navbartop a {
   font-size: 14px;
   font-weight: bolder;
   color: #d52b1e;
+}
+body .navbar-top .contact-navbartop a:hover {
+  color: #121212;
 }
 body .separator {
   background-color: #f9f9f9;
@@ -159,9 +165,10 @@ main .image-container-new {
   align-items: center;
   flex-direction: column;
   background-color: #fff;
+  height: 550px;
 }
 main .image-container-new a img {
-  height: 600px;
+  height: 467px;
 }
 main .image-container-new a img:hover {
   opacity: 0.1;
@@ -172,7 +179,9 @@ main .image-container-new a #sound-img {
 }
 main .tittle-new {
   display: flex;
-  justify-content: start;
+  justify-content: center;
+  text-align: start;
+  height: 48px;
 }
 main .tittle-new:hover {
   color: #d52b1e;
@@ -194,11 +203,24 @@ body .footer-container div .logo-slogan .logo-footer {
 }
 body .footer-container div .social {
   display: flex;
-  justify-content: end;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: flex-end;
 }
 body .footer-container div .social img {
   width: 50px;
   padding-left: 10px;
+}
+body .footer-container div .social img:hover {
+  transform: translatey(20px);
+  transition: 1000ms;
+  transition-timing-function: linear;
+}
+body .footer-container div .social a {
+  color: #d52b1e;
+}
+body .footer-container div .social a:hover {
+  color: #fff;
 }
 body .footer-container div .footer-bot {
   display: flex;
@@ -323,6 +345,7 @@ main div .gallery .img-tittle-container {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #fff;
 }
 main div .gallery .img-tittle-container .img-container {
   display: flex;
@@ -335,7 +358,6 @@ main div .gallery .img-tittle-container .img-container {
   }
 }
 main div .gallery .img-tittle-container .tittle {
-  color: #d52b1e;
   height: 50px;
   background-color: #fff;
   width: 100%;
@@ -343,9 +365,8 @@ main div .gallery .img-tittle-container .tittle {
   display: flex;
   justify-content: center;
 }
-main div .gallery .container-rari {
-  display: flex;
-  justify-content: flex-end;
+main div .gallery .img-tittle-container .tittle a {
+  color: #d52b1e;
 }
 
 main nav {
@@ -375,6 +396,32 @@ main .ab-us-container div div {
 }
 main .ab-us-container div div p span {
   font-weight: bolder;
+}
+
+main .guia {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main .guia div {
+  align-items: center;
+  text-align: center;
+}
+main .guia div .img-guia-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 188px;
+}
+main .guia div .tittle-guia {
+  height: 113px;
+}
+main .questions {
+  margin-top: 100px;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
