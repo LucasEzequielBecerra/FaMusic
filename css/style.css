@@ -24,6 +24,7 @@ body .navbar-top .contact-navbartop {
   display: inline-block;
   position: absolute;
   right: 0;
+  margin-top: 5px;
 }
 body .navbar-top .contact-navbartop a {
   font-size: 14px;
