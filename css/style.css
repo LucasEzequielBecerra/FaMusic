@@ -209,7 +209,8 @@ body .footer-container div .social {
 }
 @media screen and (max-width: 425px) {
   body .footer-container div .social {
-    align-items: flex-start;
+    align-items: centers;
+    flex-direction: row;
   }
 }
 body .footer-container div .social img {
