@@ -118,6 +118,7 @@ main {
             a {
                 img {
                     height: 467px;
+                    transition:all .5s ease-in-out;
 
                     &:hover {
                         opacity: .10;
